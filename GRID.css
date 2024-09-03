@@ -1,0 +1,56 @@
+*{
+  margin: 0;
+}
+
+
+.parent{
+     display:grid;
+     grid-template-columns: 250px 250px 250px 250px 250px;
+     gap: 10px;
+}
+.child{
+   background-color: aqua;  
+}
+.one{
+    
+    grid-row-start: 1;
+    grid-row-end: 3;
+    grid-column: 1/4;
+     /* grid-column-start: 1;
+    grid-column-end: 3;  */
+    height: 250px;
+}
+.two{
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 4;
+    grid-column-end: 6;
+}
+
+.three{
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column-start: 4;
+    grid-column-end: 6; 
+}
+/* .four{
+    grid-row-start: 2;
+    grid-row-end: 4;
+    grid-column-start: 3;
+    grid-column-end: 6; 
+}
+
+.five{
+    grid-row-start: 1;
+    grid-row-end: 4;
+    grid-column-start: 5;
+    grid-column-end: 7; 
+
+}
+.six{
+    grid-row-start: 1;
+    grid-row-end: 4;
+    grid-column-start: 5;
+    grid-column-end: 6;  
+} */
+

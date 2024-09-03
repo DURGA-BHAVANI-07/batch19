@@ -1,0 +1,46 @@
+body{
+        padding-top: 60px; /* Adjust based on the header's height */
+    background-image: url(./nature.jpg);
+    background-size: cover;   
+
+}
+header {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    background-color: #fff; /* Ensures background color so content below doesn't show through */
+}
+
+/* 
+/* .parent{
+    /* border: 20px;
+    margin: 15px; */
+    /* background-color:white;
+    /* padding: 20px; */
+    /* color: blue; */
+    /* padding: 40px; */
+    /* z-index: 10;
+    border-color: rgb(174, 167, 167);
+    display: flex;
+     */
+
+/* .one{ */
+    /* text-align: left;
+    font-size: 25px;
+    text-decoration: none;
+     */
+
+
+.two{
+    background-color: white;
+    /* text-align: right;
+    font-size: 25px; */
+ 
+text-align: center;
+    /* position:sticky; */
+
+    
+    
+    
+}
+
